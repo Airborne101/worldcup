@@ -7,13 +7,90 @@
     width: 100vw;
     height: 100vh;
     background-color: rgb(255, 229, 127);
-    text-align: center;
     font-family: "Dongle";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title {
-    background-color: red;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-size: 4rem;
+}
+
+.title_img {
+    position: absolute;
+    top: 0.5rem;
+    left: 5rem;
+}
+
+.contents_container {
+    padding: 1rem;
+    width: 95%;
+    height: 78%;
+    background-color: rgb(57, 133, 61);
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.contents_A {
+    margin-top: 7rem;
+    margin-right: 1rem;
+    display: inline-block;
+    width: 48%;
+    height: 70%;
+    background-color: rgb(180, 133, 133);
+    border-radius: 0.5rem;
+    border: 3px solid black;
+}
+
+.character_name_A {
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.character_name_B {
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.contents_B {
+    margin-top: 7rem;
+    display: inline-block;
+    width: 48%;
+    height: 70%;
+    background-color: rgb(79, 82, 119);
+    border-radius: 0.5rem;
+    border: 3px solid black;
+}
+
+@media (max-width: 800px) {
+    .contents_A {
+        display: block;
+        margin-top: 4.6rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 40%;
+        background-color: rgb(180, 133, 133);
+        margin-top: 0;
+    }
+    .contents_B {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 40%;
+        background-color: rgb(79, 82, 119);
+        margin-top: 0;
+    }
+
+    .contents_container {
+        width: 90%;
+        padding-top: 10rem;
+    }
+
+    .character_name_B {
+
+    }
 }
