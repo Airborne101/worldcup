@@ -1,0 +1,26 @@
+{
+    "hodu" : {
+        "nmae" : "호두",
+        "url" : "src/assets/hodu.png"
+    },
+    "lisa" : {
+        "name" : "리사",
+        "url" : "src/assets/lisa.png"
+    },
+    "mona" : {
+        "name" : "모나",
+        "url" : "src/assets/hodu.png"
+    },
+    "klee" : {
+        "name" : "클레",
+        "url" : "src/assets/hodu.png"
+    },
+    "jean" : {
+        "name" : "진",
+        "url" : "src/assets/hodu.png"
+    },
+    "Diona" : {
+        "name" : "디오나",
+        "url" : "src/assets/hodu.png"
+    }
+}
